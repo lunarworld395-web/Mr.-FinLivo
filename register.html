@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#030a10"><title>Create Account | Mr. FinLivo</title>
+  <link rel="stylesheet" href="./style.css"><script src="./script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="./index.html"><span class="brand-mark">↗</span><span>Mr. <b>FinLivo</b></span></a>
+    <nav class="main-nav" aria-label="Main navigation"><a href="./home.html">Home</a><a href="./library.html">Library</a><a href="./subscription.html">Subscribe</a><a class="active" href="./register.html">Register</a></nav>
+    <a class="header-search-link" href="./home.html">Back to Home ↗</a>
+  </header>
+  <main class="register-layout">
+    <section class="register-intro">
+      <p class="eyebrow">YOUR NEXT CHAPTER STARTS HERE</p>
+      <h1>Join the<br><span>FinLivo Community.</span></h1>
+      <p class="lead">Create a profile to express interest in future learning resources and membership updates.</p>
+      <div class="register-benefit"><span>✓</span><div><b>Learning updates</b><small>Hear about new educational resources.</small></div></div>
+      <div class="register-benefit"><span>✓</span><div><b>Topic suggestions</b><small>Share the financial topics you want to learn.</small></div></div>
+      <div class="register-benefit"><span>✓</span><div><b>Future membership news</b><small>Get information when membership is ready.</small></div></div>
+    </section>
+    <section class="register-card">
+      <div class="register-card-head"><div class="register-user-icon">＋</div><div><p class="eyebrow">MR. FINLIVO</p><h2>Create your account</h2><p>Fields marked * are required.</p></div></div>
+      <form id="register-form">
+        <label for="register-name">Full name *<input id="register-name" name="name" type="text" autocomplete="name" maxlength="80" placeholder="Your name" required></label>
+        <label for="register-email">Email address *<input id="register-email" name="email" type="email" autocomplete="email" maxlength="120" placeholder="you@example.com" required></label>
+        <label for="register-interest">What are you most interested in?
+          <select id="register-interest" name="interest"><option>Budgeting and money management</option><option>Saving and financial goals</option><option>Investing basics</option><option>New videos and learning resources</option><option>Future paid membership</option></select>
+        </label>
+        <label class="consent-row"><input id="register-consent" type="checkbox" required><span>I agree to be contacted about Mr. FinLivo updates. *</span></label>
+        <button class="button button-primary" type="submit">PREPARE REGISTRATION →</button>
+        <p id="register-status" class="register-status" aria-live="polite"></p>
+        <p class="register-fineprint">Demo only: this form prepares an email draft. It does not create a saved account or store your data. A secure backend is needed for real registration.</p>
+      </form>
+    </section>
+  </main>
+  <footer class="site-footer"><a class="brand" href="./index.html"><span class="brand-mark">↗</span><span>Mr. <b>FinLivo</b></span></a><div><a href="./home.html">Home</a><a href="./library.html">Library</a><a href="./subscription.html">Subscribe</a></div><small>© <span class="year"></span> Mr. FinLivo</small></footer>
+</body></html>
